@@ -1,0 +1,72 @@
+[
+	{
+		"id": "1",
+		"price": "150000",
+		"name": "Гарпия 1",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut harum voluptas deserunt, reprehenderit sequi molestiae culpa odit, assumenda magnam, dolorum ullam reiciendis modi debitis maxime laudantium voluptatem adipisci voluptatum itaque!",
+		"images": "<img src='./img/Классические_кухни.jpg'>"
+	},
+	{
+		"id": "2",
+		"price": "143000",
+		"name": "Гарпия 2",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut harum voluptas deserunt, reprehenderit sequi molestiae culpa odit, assumenda magnam, dolorum ullam reiciendis modi debitis maxime laudantium voluptatem adipisci voluptatum itaque!",
+		"images": "<img src='./img/Современные_кухни.jpg'>"
+	},
+	{
+		"id": "3",
+		"price": "200000",
+		"name": "Гарпия 3",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut harum voluptas deserunt, reprehenderit sequi molestiae culpa odit, assumenda magnam, dolorum ullam reiciendis modi debitis maxime laudantium voluptatem adipisci voluptatum itaque!",
+		"images": "<img src='./img/Кухни_Лофт.jpg'>"
+	},
+	{
+		"id": "4",
+		"price": "253000",
+		"name": "Гарпия 4",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut harum voluptas deserunt, reprehenderit sequi molestiae culpa odit, assumenda magnam, dolorum ullam reiciendis modi debitis maxime laudantium voluptatem adipisci voluptatum itaque!",
+		"images": "<img src='./img/Классические_кухни.jpg'>"
+	},
+	{
+		"id": "5",
+		"price": "240000",
+		"name": "Гарпия 5",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut harum voluptas deserunt, reprehenderit sequi molestiae culpa odit, assumenda magnam, dolorum ullam reiciendis modi debitis maxime laudantium voluptatem adipisci voluptatum itaque!",
+		"images": "<img src='./img/Современные_кухни.jpg'>"
+	},
+	{
+		"id": "6",
+		"price": "340000",
+		"name": "Гарпия 6",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut harum voluptas deserunt, reprehenderit sequi molestiae culpa odit, assumenda magnam, dolorum ullam reiciendis modi debitis maxime laudantium voluptatem adipisci voluptatum itaque!",
+		"images": "<img src='./img/Кухни_Лофт.jpg'>"
+	},
+	{
+		"id": "7",
+		"price": "300000",
+		"name": "Гарпия 7",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut harum voluptas deserunt, reprehenderit sequi molestiae culpa odit, assumenda magnam, dolorum ullam reiciendis modi debitis maxime laudantium voluptatem adipisci voluptatum itaque!",
+		"images": "<img src='./img/Классические_кухни.jpg'>"
+	},
+	{
+		"id": "8",
+		"price": "720000",
+		"name": "Гарпия 8",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut harum voluptas deserunt, reprehenderit sequi molestiae culpa odit, assumenda magnam, dolorum ullam reiciendis modi debitis maxime laudantium voluptatem adipisci voluptatum itaque!",
+		"images": "<img src='./img/Современные_кухни.jpg'>"
+	},
+	{
+		"id": "9",
+		"price": "700000",
+		"name": "Гарпия 9",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut harum voluptas deserunt, reprehenderit sequi molestiae culpa odit, assumenda magnam, dolorum ullam reiciendis modi debitis maxime laudantium voluptatem adipisci voluptatum itaque!",
+		"images": "<img src='./img/Кухни_Лофт.jpg'>"
+	},
+	{
+		"id": "10",
+		"price": "800000",
+		"name": "Гарпия 10",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut harum voluptas deserunt, reprehenderit sequi molestiae culpa odit, assumenda magnam, dolorum ullam reiciendis modi debitis maxime laudantium voluptatem adipisci voluptatum itaque!",
+		"images": "<img src='./img/Классические_кухни.jpg'>"
+	}
+]

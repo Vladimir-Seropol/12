@@ -1,0 +1,12 @@
+.Introduction {
+  display: inline-flex;
+  flex-grow: 1;
+  flex-direction: column;
+  max-width: inherit;
+}
+.Introduction > a {
+  vertical-align: middle;
+}
+.Introduction > pre {
+  white-space: pre-wrap;
+}

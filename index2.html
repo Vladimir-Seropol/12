@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Немецкий стандарт</title>
+
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<header class="header" style="position: relative;">
+		<div class="container">
+			<div class="header__container">
+				<div class="header__container-about-us">
+					<div class="header__container-about-us-column column1">
+						<img class="header__container-about-us-logo" src="./img/Frame 21162.png" alt="Логотип компнии">
+					</div>
+					<div class="header__container-about-us-column column2">
+						<p class="header__container-about-us-hours">Отвечаем на звонки <br> с 9:00 до 21:00 без выходных
+						</p>
+					</div>
+					<div class="header__container-about-us-column column3">
+						<img class="header__container-about-us-img-address" src="./icon/Interface-Solid.png"
+							alt="Точка на карте">
+						<p class="header__container-about-us-address">г. Краснодар, ул. Красных Партизан, 483
+						</p>
+					</div>
+					<div class="header__container-about-us-column column4">
+						<a href="index.html#order" class="btn header__container-link">Расчитать стоимость</a>
+					</div>
+					<div class="header__container-about-us-column column5">
+						<a class="header__container-about-us-phone1" href="tel:+76212179376">+7 (6212) 17-93-76</a>
+						<a class="header__container-about-us-phone2" href="tel:+79892779430">+7 (989) 277-94-30</a>
+						<div class="header__container-about-tooltip">
+							<a href="index.html#sale" class="header__container-about-us-tooltip-link">Вам перезвонить?
+
+							</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="header__container-navigation">
+					<nav class="header__container-navigation-nav">
+						<ul class="nav header__container-navigation-nav-list">
+							<li class="nav-item"><a class="nav-link header__container-navigation-nav-link"
+									href="index.html#price">ЦЕНЫ</a> </li>
+							<li class="nav-item"><a class="nav-link header__container-navigation-nav-link"
+									href="index.html#promotion">АКЦИЯ</a></li>
+							<li class="nav-item"><a class="nav-link header__container-navigation-nav-link"
+									href="#">МАТЕРИАЛЫ</a> </li>
+							<li class="nav-item"><a class="nav-link header__container-navigation-nav-link"
+									href="index.html#order">КАК
+									ЗАКАЗАТЬ</a>
+							</li>
+							<li class="nav-item"><a class="nav-link header__container-navigation-nav-link"
+									href="index.html#sample">НАШИ
+									РАБОТЫ</a> </li>
+							<li class="nav-item"><a class="nav-link header__container-navigation-nav-link" href="./index3.html">ОТЗЫВЫ</a>
+							</li>
+							<li class="nav-item"><a class="nav-link header__container-navigation-nav-link"
+									href="index.html#contact">КОНТАКТЫ</a> </li>
+						</ul>
+					</nav>
+
+				</div>
+				<div class="header__burger">
+					<span></span>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<h2 class="catalog-title">Каталог продукции.</h2>
+
+			<div class="tables">
+				<div class="btns-catalog">
+					<button class="btn btn-catalog" id="buttonUp"> По возрастанию цены</button>
+					<button class="btn btn-catalog" id="buttonDown">По убыванию цены</button>
+				</div>
+
+				<table class="table">
+					<thead>
+						<tr>
+							<th class="th">№</th>
+							<th class="th">Название кухни </th>
+							<th class="th" id="price">Цена кухни, руб. 
+								<svg class="svg-up" style="padding-right: 0;" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12L1 10.5L8 3.5L15 10.5L13.5 12L8 6.5L2.5 12Z" fill="black"/>
+									</svg>
+									<svg class="svg-down" style="padding-right: 0;" width="16" height="16" viewBox="0 0 16 16"
+									fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M2.5 4L1 5.5L8 12.5L15 5.5L13.5 4L8 9.5L2.5 4Z" fill="black" />
+								</svg>
+							</th>
+							<th class="th">Описание кухни</th>
+							<th class="th">Фотография</th>
+						</tr>
+					</thead>
+					<tbody id="catalogList"></tbody>
+				</table>
+			</div>
+
+
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="row footer__container">
+				<p class="col-6 footer__container-left">© “Немецкий Стандарт” Информация на сайте не является публичной
+					офертой. Настоящий сайт не является интернет-магазином</p>
+				<div class="col-3 social">
+					<div class=" dws-button dws-telegram"><a href="https://web.telegram.org/k/" target="_blank">
+							<div class="dws-share"><i class="fa fa-telegram" aria-hidden="true"></i></div>
+							<div class="dws-text"></div>
+						</a></div>
+					<div class="dws-button dws-vk"><a href="https://vk.com/dwstroy" target="_blank">
+							<div class="dws-share"><i class="fa fa-vk" aria-hidden="true"></i></div>
+							<div class="dws-text"></div>
+						</a></div>
+
+
+					<div class="dws-button dws-odnoklassniki"><a href="https://ok.ru/">
+							<div class="dws-share"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></div>
+							<div class="dws-text"></div>
+						</a></div>
+
+				</div>
+				<p class="col-3 footer__container-right">© Все права защищены Политика конфиденциальности</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+	<script src="./js/Inputmask-5.x/dist/inputmask.min.js"></script>
+	<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="./js/catalog.js"></script>
+	<script src="./js/script.js"></script>
+
+</body>
+
+</html>
